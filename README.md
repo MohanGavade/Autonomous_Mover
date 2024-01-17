@@ -66,9 +66,9 @@ The robot uses a 2700mAh rechargeable battery, similar to those used in quadcopt
 ## OODA:
 
 We will use the OODA loop, where tasks are time-controlled, and the lower, inner loop takes priority over the slower, outer loop.
-
+![OODA](https://github.com/MohanGavade/Autonomous_Mover/blob/main/Images/OODA.png)
 ## Control Loops:
-
+![loop](https://github.com/MohanGavade/Autonomous_Mover/blob/main/Images/Flow_1.png)
 Why we need control loops:
 - To respond to commands from the control station.
 - To interface with motors and sensors in the Arduino Mega.
@@ -89,4 +89,4 @@ We will use 3-letter identifiers:
 - Heartbeat messages are used to measure communication performance and ensure the robot is responsive.
 - It helps in understanding latency, confirming active connections, and allowing monitoring and control over a wireless network.
 
-`
+![Block Chart](https://github.com/MohanGavade/Autonomous_Mover/blob/main/Images/Flow_.jpg)
